@@ -1,5 +1,28 @@
-@import url('')
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gupter:wght@400;500;700&display=swap');
 
-{
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
 
+:root {
+    --vermelho: rgb(255, 0, 0);
+    --laranja: #fb5607ff;
+    --amarelo: #ffbe0bff;
+    --verde: rgb(21, 214, 0);
+    --azul: #3a86ffff;
+    --violeta: #8338ecff;
+    --fonte-titulo: "Anton", sans-serif;
+    --fonte-texto: "Gupter", serif;
+}
+
+body{
+    background-color: var(--verde);
+    color: var(--violeta);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: var(--fonte-texto);
 }
