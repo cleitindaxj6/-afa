@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gupter:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 *{
     margin: 0;
@@ -7,18 +7,41 @@
 }
 
 :root {
-    --rich-black: #000814ff;
-    --oxford-blue: #001d3dff;
-    --yale-blue: #003566ff;
-    --mikado-yellow: #ffc300ff;
-    --gold: #ffd60aff;
-    }
+    --timberwolf: rgb(2, 254, 40);
+--sage: rgb(2, 244, 168);
+--fern-green: rgb(0, 0, 0);
+--hunter-green: rgb(2, 249, 47);
+--brunswick-green: rgb(0, 44, 22);
+
+}
+
 body{
-    background-color: var(--verde);
-    color: var(--violeta);
+    background-color: var(--hunter-green);
+    color: var(--timberwolf);
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    font-family: var(--fonte-texto);
+}
+
+.caixa-principal{
+    background-color: var(--fern-green);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+}
+
+button{
+    background-color: var(--timberwolf);
+    color: var(--fern-green);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: 0.3s;
+    margin: 10px auto;
+}
+
+button:hover{
+    background-color: var(--brunswick-green);
 }
