@@ -7,16 +7,12 @@
 }
 
 :root {
-    --vermelho: rgb(255, 0, 0);
-    --laranja: #fb5607ff;
-    --amarelo: #ffbe0bff;
-    --verde: rgb(21, 214, 0);
-    --azul: #3a86ffff;
-    --violeta: #8338ecff;
-    --fonte-titulo: "Anton", sans-serif;
-    --fonte-texto: "Gupter", serif;
-}
-
+    --rich-black: #000814ff;
+    --oxford-blue: #001d3dff;
+    --yale-blue: #003566ff;
+    --mikado-yellow: #ffc300ff;
+    --gold: #ffd60aff;
+    }
 body{
     background-color: var(--verde);
     color: var(--violeta);

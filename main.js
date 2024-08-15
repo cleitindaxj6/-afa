@@ -8,39 +8,70 @@ const perguntas = [
     {
         enunciado: "texto01",
         alternativas: [
-            "alternativa01",
-            "alternativa02"
+          {
+            texto: "alternativa01",
+            afirmacao: "afirmacao"
+          },
+          {
+            texto: "alternativa01",
+            afirmacao: "afirmacao"
+          }
         ]
     },
     {
         enunciado: "texto02",
         alternativas: [
-            "alternativa01",
-            "alternativa02"
+          {
+            texto: "alternativa02",
+            afirmacao: "afirmacao"
+          },
+          {
+            texto: "alternativa02",
+            afirmacao: "afirmacao"
+          }
         ]
     },
     {
         enunciado: "texto03",
         alternativas: [
-            "alternativa01",
-            "alternativa02"
+          {
+            texto: "alternativa03",
+            afirmacao: "afirmacao"
+          },
+          {
+            texto: "alternativa03",
+            afirmacao: "afirmacao"
+          }
         ]
     },
     {
         enunciado: "texto04",
         alternativas: [
-            "alternativa01",
-            "alternativa02"
+          {
+            texto: "alternativa04",
+            afirmacao: "afirmacao"
+          },
+          {
+            texto: "alternativa04",
+            afirmacao: "afirmacao"
+          }
         ]
     },
     {
         enunciado: "texto05",
         alternativas: [
-            "alternativa01",
-            "alternativa02"
+          {
+            texto: "alternativa09",
+            afirmacao: "afirmacao03"
+          },
+          {
+            texto: "alternativa10",
+            afirmacao: "afirmacao04"
+          }
         ]
     }
-]
+];
+
 
 let atual = 0;
 let perguntaAtual;
